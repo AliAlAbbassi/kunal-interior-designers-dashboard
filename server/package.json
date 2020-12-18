@@ -1,0 +1,30 @@
+{
+  "name": "interior-designers-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@accounts/database-manager": "^0.29.0",
+    "@accounts/graphql-api": "^0.29.0",
+    "@accounts/mongo": "^0.29.0",
+    "@accounts/password": "^0.29.0",
+    "@accounts/server": "^0.29.0",
+    "@babel/preset-env": "^7.12.7",
+    "@graphql-modules/core": "^0.7.17",
+    "@graphql-toolkit/schema-merging": "^0.10.7",
+    "apollo-server": "^2.19.0",
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.4.0",
+    "mongoose": "^5.11.1"
+  },
+  "devDependencies": {
+    "@babel/node": "^7.12.6"
+  }
+}
