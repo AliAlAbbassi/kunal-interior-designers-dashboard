@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/graphql",
+            "lambdaFunction": "kiddFunc",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/graphql"
+        }
+    ],
+    "resourceName": "kidd",
+    "apiName": "kidd",
+    "functionArns": [
+        {
+            "lambdaFunction": "kiddFunc"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-kunalinteriordesigne-dev-161529-authRole",
+        "unAuthRoleName": "amplify-kunalinteriordesigne-dev-161529-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "kiddFunc",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
