@@ -4,7 +4,7 @@ import GraphQLClient from '@accounts/graphql-client';
 import { accountsLink } from '@accounts/apollo-link';
 import { ApolloClient, InMemoryCache, HttpLink, from } from '@apollo/client';
 import gql from 'graphql-tag';
-import config from './aws-exports';
+import config from '../aws-exports';
 
 // This auth link will inject the token in the headers on every request you make using apollo client
 const authLink = accountsLink(() => accountsClient);

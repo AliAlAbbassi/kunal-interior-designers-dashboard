@@ -69,7 +69,7 @@
         "Timeout": "25",
         "Code": {
           "S3Bucket": "amplify-kunalinteriordesigne-dev-161529-deployment",
-          "S3Key": "amplify-builds/kiddFunc-594d6968502f6a522f73-build.zip"
+          "S3Key": "amplify-builds/kiddFunc-35653944634d52596732-build.zip"
         }
       }
     },
